@@ -1,0 +1,53 @@
+body {
+    background-color: #8f00cc;
+    font-size: 1.9em;
+    font-style: Quicksand, "Kaushan Script";
+}
+
+header {
+    margin-top: 3em;
+    background-color: #8000ff;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+header nav {
+    margin: 0 1em 1.5em 0;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.w {
+    background-color: #f2f2f2;
+    padding: 4em 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.quoteContainer {
+    margin: 2em auto;
+    padding: 3em 0;
+}
+
+#quoteDisplay {
+    margin: 2em auto;
+    width: 70%;
+}
+
+button {
+    padding: .1em 1.5em;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 777px) {
+    header {
+        margin-top: 0;
+    }
+    .quoteContainer {
+        margin: 2.3em auto;
+        padding: 3em 0;
+    }
+}

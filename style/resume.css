@@ -1,0 +1,87 @@
+/*
+ *  resume css
+ *  body starting here
+ */
+
+#resume {
+    background-color: #FFE4C4;
+}
+
+
+/*
+ *	resume container
+ */
+
+.resumeContainer {
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #FEFEF2;
+    border: 8px double #000;
+    max-width: 750px;
+    text-align: left;
+}
+
+
+/*
+ *	header
+ */
+
+header {
+    margin: 20px auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 24px;
+    margin-left: 55px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 14px;
+    margin-left: 85px
+}
+
+.workExperience p {
+    font-size: 20px;
+    font-weight: 550px;
+    margin: 8px;
+    margin-left: 85px;
+}
+
+li {
+    font-size: 20px;
+    margin: 8px;
+    margin-left: 85px;
+}
+
+@media screen and (max-width: 850px) {
+    #resume {
+        background-color: #FEFEF2;
+    }
+    .resumeContainer {
+        margin: 0 auto;
+        padding: 0;
+        text-align: left;
+        background-color: #FEFEF2;
+        border: 0;
+        max-width: 750px;
+    }
+}

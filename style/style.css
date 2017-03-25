@@ -1,0 +1,410 @@
+    body {
+        /*background-color: #f2f2f2;*/
+        background-color: #2626db;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 2em;
+        color: black;
+    }
+
+    h2 {
+        font-size: 2em;
+        text-decoration: underline;
+        margin-bottom: 2em;
+    }
+
+    @media screen and (max-width: 768px) {
+        h2 {
+            margin-bottom: 1em;
+        }
+        p {
+            padding: 0 1em;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        p {
+            font-size: 1em;
+        }
+    }
+
+    ul li a {
+        text-decoration: none;
+    }
+    /*      Header     */
+
+    .jumbotron {
+        background-color: #2626db;
+        color: white;
+        margin: 0 auto;
+        width: 100%;
+        /*margin-bottom: 1em;*/
+    }
+
+    @media screen and (min-width: 768px) {
+        .jumbotron {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+    /*End of jumbotron*/
+
+    header nav a {
+        color: white;
+        margin-right: auto;
+        border: 1px solid white;
+        border-radius:
+    }
+
+    .marginRight {
+        margin-right: 3em;
+        padding-right: 1em;
+    }
+
+    .navbar-inverse {
+        background-color: transparent;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+    }
+
+    @media screen and (max-width: 774px) {
+        #bs-example-navbar-collapse-1 {
+            font-size: .8em;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        #hide .marginRight {
+            display: none;
+        }
+    }
+
+    .dropdown-menu>li>a {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: 600;
+        line-height: 1.8;
+        color: black;
+        white-space: nowrap;
+    }
+
+    .navbar {
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 20px;
+        border: 0;
+    }
+    /*navbar & icon-bar not focused*/
+
+    .navbar-inverse .navbar-toggle {
+        border-color: #333;
+        background-color: white;
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #333;
+    }
+    /*navbar & icon-bar hover*/
+
+    .navbar-inverse .navbar-toggle:hover {
+        background-color: #333;
+    }
+
+    .navbar-inverse .navbar-toggle:hover .icon-bar {
+        background-color: white;
+    }
+    /*navbar & icon-bar focused*/
+
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #999999;
+    }
+
+    .navbar-inverse .navbar-toggle:focus .icon-bar {
+        background-color: white;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: transparent;
+    }
+
+    @media screen and (max-width: 767px) {
+        #dropdown {
+            display: none;
+        }
+    }
+    /*     End of Header    */
+    /*   Carousel   */
+
+    #banner {
+        width: 100%;
+        height: 600px;
+        top: 150px;
+    }
+
+    #banner img {
+        width: 100%;
+        height: 600px;
+    }
+
+    #banner div {
+        position: absolute;
+        z-index: 0;
+    }
+
+    #banner div.previous {
+        z-index: 1;
+    }
+
+    #banner div.current {
+        z-index: 2;
+    }
+
+    @media screen and (max-width: 767px) {
+        #banner {
+            display: none;
+        }
+    }
+    /*   End of Carousel   */
+    /*Bio*/
+
+    #bio {
+        margin: 5em 0;
+        padding: 5em 2em;
+        background-color: white;
+        font-size: 1.1em;
+    }
+
+    .bio h3 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .img-circle {
+        width: 12em;
+        height: auto;
+        margin-top: .5em;
+        margin-bottom: 1em;
+    }
+
+    .link {
+        width: 2.5em;
+    }
+
+    .link1 {
+        width: 3em;
+    }
+    /*linked icon margin*/
+
+    .pd {
+        margin-left: 1em;
+    }
+
+    @media screen and (max-width: 991px) {
+        .bio h3 {
+            font-size: 2em;
+            margin: 0 0 1em .5em;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        #bio {
+            margin: 0 0 0 0;
+            padding: 0;
+            background-color: white;
+            font-size: 1.1em;
+        }
+        #bio p {
+            font-size: .9em;
+        }
+        .bio h3 {
+            display: none;
+        }
+        .link {
+            width: 2em;
+        }
+        .link1 {
+            width: 2.5em;
+        }
+    }
+
+    @media screen and (max-width: 483px) {
+        .link {
+            width: 1.5em;
+        }
+        .link1 {
+            width: 2em;
+        }
+        .pd {
+            margin-left: 0;
+        }
+    }
+    /*End of Bio*/
+    /*Certifications*/
+
+    #cert {
+        margin: 5em 0;
+        padding: 5em 2em;
+        background-color: white;
+        font-size: 1.1em;
+    }
+
+    .pad1 {
+        margin: 0 0 2em 0;
+        padding: 0 0 0 2em;
+    }
+
+    @media screen and (max-width: 991px) {
+        .pad1 {
+            margin: 0;
+            padding-left: 2em;
+        }
+        .pad2 {
+            margin: 0 0 2em 0;
+            padding-left: 2em;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        #cert {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            font-size: 1.1em;
+        }
+        .pad2 {
+            margin: 0;
+        }
+    }
+    /* End of Certifications*/
+    /*   Skills   */
+
+    #skills {
+        margin: 0 0 5em 0;
+        padding: 5em 2em;
+        background-color: white;
+        font-size: 1.1em;
+    }
+
+    @media screen and (max-width: 767px) {
+        #skills {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            font-size: 1.1em;
+        }
+    }
+
+    .skills {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .skills h2 {
+        padding-bottom: .8em;
+    }
+
+    .img-re {
+        width: 2em;
+    }
+
+    .img-re1 {
+        width: 1.6em;
+    }
+
+    @media screen and ( max-width: 1002px) {
+        .skills h2 {
+            padding-bottom: 0;
+        }
+        .img-re {
+            width: 1.5em;
+        }
+        .img-re1 {
+            width: 1em;
+        }
+    }
+
+    @media screen and ( max-width: 780px) {
+        .skills h2 {
+            padding-bottom: 0;
+        }
+        .skills tr td {
+            font-size: .8em;
+            text-align: center;
+        }
+        .img-re {
+            width: 0;
+        }
+        .img-re1 {
+            width: 0;
+        }
+    }
+    /*   End of Skills   */
+    /*   Projects   */
+
+    #pro {
+        margin: 0 0 5em 0;
+        padding: 5em 2em;
+        background-color: white;
+        font-size: 1.1em;
+    }
+
+    @media screen and (max-width: 767px) {
+        #pro {
+            margin: 0 0 0 0;
+            padding: 0;
+            background-color: white;
+            font-size: 1.1em;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        table tr td {
+            font-size: 1em;
+            text-align: left;
+        }
+    }
+    /*   End of Projects    */
+    /*Footer*/
+
+    footer {
+        background-color: #666666;
+        padding: 3em 0;
+        font-size: .8em;
+    }
+
+    footer .licenses li {
+        list-style: none;
+        padding: 1.8em 0 0 0;
+    }
+
+    footer .licenses li:hover {
+        background-color: white;
+        height: 8em;
+    }
+
+    footer a {
+        color: black;
+    }
+
+    @media screen and (max-width: 768px) {
+        footer nav {
+            display: none;
+        }
+        footer .img-re {
+            width: 2em;
+        }
+        footer .img-re1 {
+            width: 1.6em;
+        }
+    }
+    /*End of Footer*/
+
+    er*/ er*/
